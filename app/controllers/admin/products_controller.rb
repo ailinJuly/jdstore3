@@ -8,7 +8,7 @@ before_action :admin_required
   end
 
   def show
-    @product = Prodcut.find(params[:id])
+    @product = Product.find(params[:id])
   end
 
   def new
