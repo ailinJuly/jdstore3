@@ -24,6 +24,4 @@ class ApplicationController < ActionController::Base
        return cart
     end
 
-
-
 end
