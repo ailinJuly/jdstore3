@@ -31,7 +31,9 @@
         </table>
         <br>
         <div class="total clearfix">
-            <span class="pull right">总计 xxx RMB</span>
+            <span class="pull-right">
+                总计<%= render_cart_total_price(current_cart) %>RMB
+            </span>
         </div>
         <div class="checkout clearfix">
             <%= link_to("确认结账","#",method: :post,class:"btn btn-lg btn-danger pull-right") %>
