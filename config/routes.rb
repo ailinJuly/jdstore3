@@ -28,7 +28,12 @@ end
   end
 
   namespace :account do
-     resources :orders
+     resources :orders do
+       post :cancel
+       post :ship
+       post :shipped
+       post :return
 
+     end
   end
 end
